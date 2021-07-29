@@ -14,7 +14,7 @@ export default function Kitchintory() {
           <h4>Description</h4>
         </div>
         <div>
-          <p>Kitchintory is an application for restaurant management. It's a tool to keep track of what's in stock and what is needed so that you minimize waste and maximize profits. This application features full CRUD capabilities on the ingredients with login capabilities. This application was built in a team environment of fellow junior developers. </p>
+          <p>Kitchintory is an application for restaurant management. It's a tool to keep track of what's in stock and what is needed so that you minimize waste and maximize profits. This application features full CRUD capabilities on the ingredients with login capabilities. This application was built in a team environment of fellow junior developers.  </p>
         </div>
       </div>
       <div>
