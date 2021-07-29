@@ -25,7 +25,7 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
-          <Route path="/fitnesstracker">
+          <Route path="/myfittrack">
             <FitnessTracker />
           </Route>
           <Route path="/kitchintory">
