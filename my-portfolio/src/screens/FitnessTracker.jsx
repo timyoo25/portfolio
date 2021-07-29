@@ -8,7 +8,7 @@ export default function FitnessTracker() {
         <h3>MyFitTrack</h3>
       </div>
       <div>
-        <img src="" />
+        <img src="https://i.imgur.com/TmGqvy3.png" />
       </div>
       <div>
         <div>
