@@ -4,17 +4,21 @@ import Nav from "./component/Nav";
 import Home from "./component/Home";
 import Contact from "./screens/Contact";
 import Work from "./screens/Work";
-
-import "./App.css";
+import About from "./screens/About";
 import FitnessTracker from "./screens/FitnessTracker";
 import Kitchintory from "./screens/Kitchintory";
 import HealthElite from "./screens/HealthElite";
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Nav>
         <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
           <Route path="/work">
             <Work />
           </Route>

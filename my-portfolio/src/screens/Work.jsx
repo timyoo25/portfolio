@@ -7,13 +7,13 @@ export default function Work() {
         <h1>my work</h1>
       </div>
       <div>
-        <Link to="/">Fitness Tracker</Link>
+        <Link to="/fitnesstracker">Fitness Tracker</Link>
       </div>
       <div>
-        <Link to="/">Kitchintory</Link>
+        <Link to="/kitchintory">Kitchintory</Link>
       </div>
       <div>
-        <Link to="/">HealthElite</Link>
+        <Link to="/healthelite">HealthElite</Link>
       </div>
     </div>
   )

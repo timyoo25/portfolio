@@ -1,16 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function Nav(props) {
   return (
     <div>
       <div>
-        <h1>About</h1>
+        <Link to="/">Home</Link>
       </div>
       <div>
-        <h1>Work</h1>
+        <Link to="/about">About</Link>
       </div>
       <div>
-        <h1>Contact</h1>
+        <Link to="/work">Work</Link>
+      </div>
+      <div>
+        <Link to="/contact">Contact</Link>
       </div>
       <div>
         {props.children}
