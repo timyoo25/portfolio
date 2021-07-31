@@ -1,0 +1,15 @@
+.home-parent {
+  background-color: chartreuse;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-parent {
+  background-color: coral;
+}
+
+.intro-quote {
+  background-color: cornflowerblue;
+}

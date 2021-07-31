@@ -1,6 +1,6 @@
 import { Route, Switch } from "react-router-dom";
 
-import Nav from "./component/Nav";
+import Layout from "./layout/Layout";
 import Home from "./component/Home";
 import Contact from "./screens/Contact";
 import Work from "./screens/Work";
@@ -14,7 +14,7 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <Nav>
+      <Layout>
         <Switch>
           <Route path="/about">
             <About />
@@ -38,7 +38,7 @@ function App() {
             <Home />
           </Route>
         </Switch>
-      </Nav>
+      </Layout>
     </div>
   );
 }

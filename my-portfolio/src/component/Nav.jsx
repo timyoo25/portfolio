@@ -1,23 +1,26 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 
-export default function Nav(props) {
+import '../screens/css/Nav.css'
+
+export default function Nav() {
   return (
-    <div>
-      <div>
-        <Link to="/">Home</Link>
+    <div className='nav-parent'>
+      <div className='nav-name'>
+        <h3>Timothy Yoo</h3>
       </div>
-      <div>
-        <Link to="/about">About</Link>
-      </div>
-      <div>
-        <Link to="/work">Work</Link>
-      </div>
-      <div>
-        <Link to="/contact">Contact</Link>
-      </div>
-      <div>
-        {props.children}
+      <div className='nav-title-parent'>
+        <div className='nav-title'>
+          <Link className='nav-links' to="/">Home</Link>
+        </div>
+        <div className='nav-title'>
+          <Link className='nav-links' to="/about">About</Link>
+        </div>
+        <div className='nav-title'>
+          <Link className='nav-links' to="/work">Work</Link>
+        </div>
+        <div className='nav-title'>
+          <Link className='nav-links' to="/contact">Contact</Link>
+        </div>
       </div>
     </div>
   )
