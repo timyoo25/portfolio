@@ -1,0 +1,58 @@
+.work-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.work-title-container {
+  background-color: crimson;
+  width: 100vw;
+}
+
+.work-title {
+}
+
+.link-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.work-link {
+}
+
+.work-fittrack-container {
+  margin: 20px;
+}
+
+#fittrack {
+}
+
+.work-kitchintory-container {
+  margin: 20px;
+}
+
+#kitchintory {
+}
+
+.work-healthelite-container {
+  margin: 20px;
+}
+
+#healthelite {
+}
+
+.work-link:visited,
+.work-link:link {
+  text-decoration: none;
+  color: black;
+}
+
+.work-image {
+  height: 400px;
+  width: 400px;
+  border: 2px solid black;
+  box-shadow: -2px 2px 10px black;
+  border-radius: 10px;
+}

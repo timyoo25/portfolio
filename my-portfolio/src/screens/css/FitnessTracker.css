@@ -1,0 +1,28 @@
+.fitness-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fitness-title-container {
+  width: 100vw;
+}
+
+.fitness-title {
+  font-size: 50px;
+}
+
+.fitness-container {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.fitness-description-parent {
+  margin: 20px;
+  justify-content: center;
+}
+
+.fitness-description-container {
+  text-align: left;
+  margin: 10px;
+}
