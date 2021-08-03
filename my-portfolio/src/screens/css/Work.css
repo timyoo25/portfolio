@@ -7,19 +7,22 @@
 }
 
 .work-title-container {
-  background-color: crimson;
   width: 100vw;
+  margin: 20px;
 }
 
 .work-title {
+  margin: 20px;
 }
 
 .link-container {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
+  align-items: center;
 }
 
 .work-link {
+  margin: 30px;
 }
 
 .work-fittrack-container {
