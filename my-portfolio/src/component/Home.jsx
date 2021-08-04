@@ -5,10 +5,10 @@ export default function Home() {
     <div className='home-parent'>
       <div className='intro-parent'>
         <div className='intro-name'>
-          <h1>Hi, my name is Tim</h1>
+          <p>HI, MY NAME IS TIM</p>
         </div>
         <div className='intro-quote'>
-          <h3>Software Engineer</h3>
+          <p>SOFTWARE ENGINEER</p>
         </div>
       </div>
     </div>

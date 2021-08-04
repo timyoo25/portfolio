@@ -1,5 +1,4 @@
 .home-parent {
-  background-color: chartreuse;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -7,9 +6,20 @@
 }
 
 .intro-parent {
-  background-color: coral;
+}
+
+.intro-name {
+  font-size: 100px;
+  font-family: "Candal", cursive;
+  color: white;
+  -webkit-text-stroke: 2px #2c365e;
+  text-shadow: -8px 8px #2c365eb3;
 }
 
 .intro-quote {
-  background-color: cornflowerblue;
+  font-size: 50px;
+  font-family: "Candal", cursive;
+  color: white;
+  -webkit-text-stroke: 2px #2c365e;
+  text-shadow: -4px 4px #2c365eb3;
 }

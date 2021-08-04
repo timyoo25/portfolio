@@ -6,7 +6,7 @@ export default function Nav() {
   return (
     <div className='nav-parent'>
       <div className='nav-name'>
-        <h3>Timothy Yoo</h3>
+        <p>TIMOTHY YOO ///</p>
       </div>
       <div className='nav-title-parent'>
         <div className='nav-title'>

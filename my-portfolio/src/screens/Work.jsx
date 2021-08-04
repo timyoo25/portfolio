@@ -6,7 +6,7 @@ export default function Work() {
   return (
     <div className='work-parent'>
       <div className='work-title-container'>
-        <h1 className='work-title'>Portfolio</h1>
+        <h1 className='work-title'>PORTFOLIO</h1>
       </div>
       <div className='link-container'>
         <Link className='work-link' id='fittrack' to="/myfittrack">

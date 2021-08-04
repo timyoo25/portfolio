@@ -1,34 +1,45 @@
 .nav-parent {
-  background-color: aqua;
   display: flex;
   width: 100vw;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  box-shadow: -2px 2px 19px grey;
+  overflow: hidden;
+  width: 100%;
+  background-color: #faf3dd;
 }
 
 .nav-name {
   margin: 20px;
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+  color: #ef3f36bd;
 }
 
 .nav-title-parent {
-  background-color: cadetblue;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   justify-content: space-between;
+  padding-right: 30px;
 }
 
 .nav-title {
-  background-color: bisque;
 }
 
 .nav-links {
-  background-color: blueviolet;
+  font-weight: 600;
   margin: 20px;
 }
 
 .nav-links:link,
 .nav-links:visited {
   text-decoration: none;
-  color: black;
+  color: #ef3f36bd;
+}
+
+.nav-links:hover {
+  color: #45b69c;
 }

@@ -4,7 +4,7 @@ export default function HealthElite() {
   return (
     <div className="health-parent">
       <div className="health-title-container">
-        <h3 className="health-title">HealthElite</h3>
+        <h3 className="health-title">HEALTHELITE</h3>
       </div>
       <div className="health-container">
         <div className="health-image-container">
@@ -12,7 +12,7 @@ export default function HealthElite() {
         </div>
         <div className="health-description-parent">
           <div className="health-description-title-container">
-            <h4 className="health-description-title">Description</h4>
+            <h4 className="health-description-title">DESCRIPTION</h4>
           </div>
           <div className="health-description-container">
             <p className="health-description">HealthElite is an application with a purpose for users to have full CRUD capabilities for products and reviews. This application has 5 different categories that users can create products in, and within each product, ability to add a review.</p>

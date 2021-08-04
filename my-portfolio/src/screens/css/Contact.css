@@ -1,0 +1,72 @@
+.contact-parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.contact-title-container {
+  width: 100vw;
+}
+
+.contact-title {
+  font-size: 50px;
+  font-family: "Candal", cursive;
+  color: white;
+  -webkit-text-stroke: 0.5px #2c365e;
+  text-shadow: -4px 4px #2c365eb3;
+}
+
+.contact-email-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-email-title {
+  font-family: "Righteous", cursive;
+  font-size: 30px;
+  padding-right: 40px;
+  color: #2c365e;
+}
+
+.contact-email {
+  color: #ef3f36bd;
+  font-size: 20px;
+  font-family: "Righteous", cursive;
+}
+
+.contact-li-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-li-title {
+  font-family: "Righteous", cursive;
+  font-size: 30px;
+  padding-right: 40px;
+  color: #2c365e;
+}
+
+.contact-gh-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-gh-title {
+  font-family: "Righteous", cursive;
+  font-size: 30px;
+  padding-right: 40px;
+  color: #2c365e;
+}
+
+.contact-link {
+  font-size: 20px;
+}
+
+.contact-link:hover {
+  color: #45b69c;
+}
