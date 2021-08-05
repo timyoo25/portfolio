@@ -4,7 +4,7 @@ export default function About() {
   return (
     <div className='about-parent'>
       <div className='about-image'>
-        <img src="https://i.imgur.com/hSMNht0.jpg" />
+        <img id="selfie" src="https://i.imgur.com/hSMNht0.jpg" />
       </div>
       <div className="about-fun-container">
         <div className='about-container'>

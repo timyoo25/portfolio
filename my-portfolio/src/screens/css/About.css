@@ -3,6 +3,8 @@
   align-items: center;
   height: 100vh;
   padding-top: 80px;
+  background-color: #faf3dd;
+  min-height: max-content;
 }
 
 .about-fun-container {
@@ -78,7 +80,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     margin: 10px;
-    margin-top: 50px;
+    margin-top: 80px;
     min-height: 100vh;
   }
 
@@ -86,15 +88,23 @@ img {
     display: flex;
     flex-wrap: wrap;
   }
+
+  .about-image {
+    justify-content: center;
+  }
   .about-container {
     margin: 5px;
     margin-top: 50px;
-    width: 100vw;
+    width: 315px;
   }
 
   .fun-fact-container {
     margin: 5px;
     margin-top: 50px;
-    width: 100vw;
+    width: 315px;
+  }
+
+  #selfie {
+    width: 330px;
   }
 }
