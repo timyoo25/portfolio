@@ -55,11 +55,18 @@
 }
 
 @media screen and (max-width: 750px) {
+  .nav-parent {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .nav-title-parent {
-    display: none;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
   }
 
   .hamburger {
-    display: block;
+    display: none;
   }
 }

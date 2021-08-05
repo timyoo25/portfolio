@@ -9,7 +9,9 @@ export default function HamburgerMenu() {
   const handleMenu = () => {
     setOpen(!open)
   }
-
+  const handleToggle = () => {
+    document.querySelector("#nav-title-parent")
+  }
   return (
     <div>
       <div>
