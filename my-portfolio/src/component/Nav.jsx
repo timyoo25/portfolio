@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBars } from "@fortawesome/free-solid-svg-icons"
 import '../screens/css/Nav.css'
 
 export default function Nav() {
@@ -9,7 +10,7 @@ export default function Nav() {
         <p>TIMOTHY YOO ///</p>
       </div>
         <button className="hamburger">
-          <i class="fas fa-bars"></i>
+          <FontAwesomeIcon icon={faBars} />
         </button>
       <div className='nav-title-parent'>
         <div className='nav-title'>
