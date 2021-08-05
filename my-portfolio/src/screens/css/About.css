@@ -5,6 +5,12 @@
   padding-top: 80px;
 }
 
+.about-fun-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 60px;
+}
+
 .about-container {
   width: 50vw;
   margin: 0 100px;
@@ -17,6 +23,25 @@
 
 .about-title {
   font-size: 50px;
+  font-family: "Candal", cursive;
+  color: white;
+  -webkit-text-stroke: 0.5px #2c365e;
+  text-shadow: -4px 4px #2c365eb3;
+}
+
+.fun-fact-container {
+  width: 50vw;
+  margin: 0 100px;
+  margin-bottom: 40px;
+  margin-right: 250px;
+  border: 2px solid #7293a0;
+  border-radius: 25px;
+  box-shadow: -5px 5px 20px #7293a0;
+}
+
+.fun-fact-title {
+  font-size: 50px;
+  margin: 5px 0;
   font-family: "Candal", cursive;
   color: white;
   -webkit-text-stroke: 0.5px #2c365e;
@@ -41,6 +66,13 @@ img {
   font-size: 20px;
 }
 
+.fun-fact-detail-container {
+  margin: 20px;
+  padding: 5px;
+  text-align: left;
+  font-size: 20px;
+}
+
 @media screen and (max-width: 750px) {
   .about-parent {
     display: flex;
@@ -49,8 +81,19 @@ img {
     margin-top: 50px;
     min-height: 100vh;
   }
+
+  .about-fun-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .about-container {
-    margin: 10px;
+    margin: 5px;
+    margin-top: 50px;
+    width: 100vw;
+  }
+
+  .fun-fact-container {
+    margin: 5px;
     margin-top: 50px;
     width: 100vw;
   }
