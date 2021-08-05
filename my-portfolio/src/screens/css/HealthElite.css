@@ -50,6 +50,10 @@
   color: #2c365e;
 }
 
+.health-description {
+  font-size: 20px;
+}
+
 .health-links-parent {
   display: flex;
   text-align: left;

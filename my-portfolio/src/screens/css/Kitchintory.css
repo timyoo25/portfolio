@@ -50,6 +50,10 @@
   color: #2c365e;
 }
 
+.kitchintory-description {
+  font-size: 20px;
+}
+
 .kitchintory-links-parent {
   display: flex;
   text-align: left;

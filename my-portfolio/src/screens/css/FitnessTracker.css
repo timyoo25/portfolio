@@ -50,6 +50,10 @@
   color: #2c365e;
 }
 
+.fitness-description {
+  font-size: 20px;
+}
+
 .fitness-links-parent {
   display: flex;
   text-align: left;

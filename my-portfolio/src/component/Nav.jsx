@@ -8,6 +8,9 @@ export default function Nav() {
       <div className='nav-name'>
         <p>TIMOTHY YOO ///</p>
       </div>
+        <button className="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
       <div className='nav-title-parent'>
         <div className='nav-title'>
           <Link className='nav-links' to="/">Home</Link>
