@@ -7,9 +7,9 @@
 
 .about-container {
   width: 50vw;
-  margin: 0 20px;
+  margin: 0 100px;
   margin-bottom: 40px;
-  margin-left: 50px;
+  margin-left: 300px;
   border: 2px solid #7293a0;
   border-radius: 25px;
   box-shadow: -5px 5px 20px #7293a0;
@@ -38,6 +38,7 @@ img {
   margin: 20px;
   padding: 5px;
   text-align: left;
+  font-size: 20px;
 }
 
 .summary {
