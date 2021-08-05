@@ -26,12 +26,22 @@
   padding-right: 30px;
 }
 
-.nav-title {
-}
-
 .nav-links {
   font-weight: 600;
   margin: 20px;
+}
+
+.hamburger {
+  background-color: transparent;
+  border: 0;
+  display: none;
+  font-size: 25px;
+  color: #ef3f36bd;
+  cursor: pointer;
+}
+
+.hamburger:focus {
+  outline: none;
 }
 
 .nav-links:link,
@@ -42,4 +52,14 @@
 
 .nav-links:hover {
   color: #45b69c;
+}
+
+@media screen and (max-width: 750px) {
+  .nav-title-parent {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }

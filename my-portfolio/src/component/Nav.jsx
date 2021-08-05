@@ -4,6 +4,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 import '../screens/css/Nav.css'
 
 export default function Nav() {
+
   return (
     <div className='nav-parent'>
       <div className='nav-name'>
