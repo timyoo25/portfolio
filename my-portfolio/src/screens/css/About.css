@@ -41,5 +41,17 @@ img {
   font-size: 20px;
 }
 
-.summary {
+@media screen and (max-width: 750px) {
+  .about-parent {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    margin-top: 50px;
+    min-height: 100vh;
+  }
+  .about-container {
+    margin: 10px;
+    margin-top: 50px;
+    width: 100vw;
+  }
 }

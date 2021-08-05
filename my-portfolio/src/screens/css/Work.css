@@ -66,3 +66,20 @@
   box-shadow: -5px 5px 20px #7293a0;
   border-radius: 10px;
 }
+
+@media screen and (max-width: 750px) {
+  .link-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+
+  .work-link {
+    margin: 20px;
+  }
+
+  .work-image {
+    height: 300px;
+    width: 300px;
+  }
+}

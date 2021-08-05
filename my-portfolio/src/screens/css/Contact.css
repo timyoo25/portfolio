@@ -70,3 +70,16 @@
 .contact-link:hover {
   color: #45b69c;
 }
+
+@media screen and (max-width: 750px) {
+  .contact-info-container {
+    margin: 20px;
+  }
+  .contact-email-container,
+  .contact-li-container,
+  .contact-gh-container {
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+}
