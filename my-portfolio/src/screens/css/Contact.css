@@ -82,4 +82,10 @@
     justify-content: center;
     text-align: center;
   }
+
+  .contact-email-title,
+  .contact-li-title,
+  .contact-gh-title {
+    padding: 0px;
+  }
 }

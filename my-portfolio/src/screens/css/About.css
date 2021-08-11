@@ -9,8 +9,10 @@
 
 .about-fun-container {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: repeat(1);
+  justify-content: center;
   padding-top: 60px;
+  width: 50vw;
 }
 
 .about-container {
@@ -82,26 +84,29 @@ img {
     margin: 10px;
     margin-top: 80px;
     min-height: 100vh;
+    justify-content: center;
   }
 
   .about-fun-container {
     display: flex;
     flex-wrap: wrap;
+    width: 100vw;
   }
 
   .about-image {
-    justify-content: center;
+    width: 330px;
   }
+
   .about-container {
     margin: 5px;
     margin-top: 50px;
-    width: 315px;
+    width: 330px;
   }
 
   .fun-fact-container {
     margin: 5px;
     margin-top: 50px;
-    width: 315px;
+    width: 330px;
   }
 
   #selfie {
