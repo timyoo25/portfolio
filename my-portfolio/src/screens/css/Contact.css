@@ -10,6 +10,20 @@
   width: 100vw;
 }
 
+.resume-container {
+  font-size: 30px;
+  margin: 0px 0;
+}
+
+.resume-title {
+  margin: 5px 0;
+}
+
+.resume-text {
+  font-size: 20px;
+  margin: 5px 0;
+}
+
 .contact-title {
   font-size: 50px;
   font-family: "Candal", cursive;
@@ -67,7 +81,8 @@
   font-size: 20px;
 }
 
-.contact-link:hover {
+.contact-link:hover,
+.resume-link:hover {
   color: #45b69c;
 }
 

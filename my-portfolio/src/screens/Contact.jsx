@@ -7,6 +7,12 @@ export default function Contact() {
         <h1 className="contact-title">CONTACT ME</h1>
       </div>
       <div className="contact-info-container">
+        <div className="resume-container">
+          <h3 className="resume-title">
+            <a className="resume-link" href="https://drive.google.com/file/d/1TE1tcMXw4Ev8aTq6e8QLhJfwiU4g3Quy/view?usp=sharing">Resume</a>
+          </h3>
+          <p className="resume-text">(Click me!)</p>
+        </div>
         <div className="contact-email-container">
           <h3 className="contact-email-title">EMAIL: </h3>
           <p className="contact-email">timyoo25@gmail.com</p>
