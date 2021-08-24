@@ -23,6 +23,8 @@
 .kitchintory-container {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
+  align-items: center;
+  padding-top: 300px;
 }
 
 .kitchintory-image {
@@ -77,6 +79,7 @@
     flex-flow: wrap;
     justify-content: center;
     margin-top: 150px;
+    padding-top: 80px;
     min-height: fit-content;
   }
 
