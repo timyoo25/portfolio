@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="contact-info-container">
         <div className="resume-container">
           <h3 className="resume-title">
-            <a className="resume-link" href="https://drive.google.com/file/d/1TE1tcMXw4Ev8aTq6e8QLhJfwiU4g3Quy/view?usp=sharing">Resume</a>
+            <a className="resume-link" href="https://drive.google.com/file/d/1ozOX0OlqzLKcwKVlid4OZCtpjZjUXdr8/view?usp=sharing">Resume</a>
           </h3>
           <p className="resume-text">(Click me!)</p>
         </div>
